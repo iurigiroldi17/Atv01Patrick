@@ -20,4 +20,11 @@ btnDiminuir.addEventListener("click", () => {
   contador--;
   atualizarTela();
 });
+
+const btnResetar = document.getElementById("resetar");
+
+btnResetar.addEventListener("click", () => {
+  contador = 0;
+  atualizarTela();
+});
 }
